@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px) repeat(2, 50px);
+    gap: 30px;
+    text-align: center;
+
+}
+
+.box{
+    background-color: grey;
+    padding: 25px;
+}
+
+#one{
+    grid-row : span 5;
+}
+
+
+#six, #seven, #nine, #ten{
+    background-color: tomato;
+}
+
+#twelve, #eleven{
+    grid-column : span 3;
+}
